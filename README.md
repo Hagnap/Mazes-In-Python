@@ -6,7 +6,7 @@ Mazes are created using a 2D Array of Nodes but what are Nodes?
  
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##### Nodes
-Nodes are simply spots in the maze. Each node has its own unique X and Y (row and column) coordinates. The nodes also store values that show if its Open, Closed/Walled Off, or Non-Accessible (Mask marked it unaccissble). These values are used during maze generation.
+Nodes are just spots/positions in a maze. Each node has its own unique X and Y (row and column) coordinates. The nodes also store values that show if its Open, Closed/Walled Off, or Non-Accessible (Mask marked it unaccissble). These values are used during maze generation.
   - Open: '0'
   - Closed/Walled Off: '■' (alt code 254)
   - Non-Accessible: '-1'
