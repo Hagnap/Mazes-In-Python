@@ -3,14 +3,16 @@ This project is a collection of Maze Algorithms found in the book "Mazes for Pro
 
 ### How Mazes Work
 Mazes are created using a 2D Array of Nodes but what are Nodes?
-
-##### What are Nodes?
+ 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### Nodes
 Nodes are spots in the maze. Each node has its own unique X and Y (row and column) coordinates. The nodes also store values that show if its Open, Closed/Walled Off, or Non-Accessible (Mask marked it unaccissble). These values are used during maze generation.
   - Open: '0'
   - Closed/Walled Off: '■' (alt code 254)
   - Non-Accessible: '-1'
 
 Other than that Nodes references to their four neighbors (North, East, South, and West) and its parent. The parent reference is used when calculating the distance from the starting point of the maze.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How Mazes Work (Continued)
 When generating mazes, an empty maze is what the program starts with and then uses the specified maze algorithm to generate walls. Once walls are generated a random starting point is selected and then the program calculates this distance of each node from the starting point. If a node can not be accessed from the starting point it is assigned a value of -1. This helps show the node can not be accessed when the maze distances are printed out. 
