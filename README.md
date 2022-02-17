@@ -22,11 +22,19 @@ All of these algorithms are dependent on a 'coin flip'. This is emulated by gett
   * The Binary Tree algorithm will traverse the maze and will only add walls to the North or East of the current node. A coinflip is done to see if a wall will be added to the north, if no wall will be added then we do another coin flip but for the east neighbor. If the value is less than 0.5 for both the North and East then no wall will be added. 
   
 ***Sidewinder***
+  * ToDO: Fill out info 
+  
 ***Aldous Broder***
-***Wilsons***
-***Hunt and Kill***
-***Recursive Backtracking***
+  * ToDO: Fill out info
 
+***Wilsons***
+  * ToDO: Fill out info
+
+***Hunt and Kill***
+  * ToDO: Fill out info
+
+***Recursive Backtracking***
+  * ToDO: Fill out info
 
 ***Test***
   * This algorithm is used to ensure everything runs fine and has no real purpose outside of that. It traverses every node and does a random coin flip to determine if a wall should be placed or not.
