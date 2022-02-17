@@ -28,16 +28,16 @@ All of these algorithms are dependent on a 'coin flip'. This is emulated by gett
   * The Sidewinder algorithm will traverse the maze and will only add walls to the East of the current node. A coinflip is done for the east neighbor to decide if a wall gets added or not. However, the nodes in the first column will never have a wall added since they are not the neighbor to the east for any node. So for any node in the first column a coinflip is performed to see if a wall should be added or not. This was something I had added after implementing this algorithm as followed in the book. 
   
 ***Aldous Broder***
-  * ToDo: Fill out info
+  * The Aldous Broder algorithm starts at a random point in the maze. From there it will move cell to cell in a random manner by selecting a random, unvisited neighbor. If all nieghbors have been visited then a random, unvisited node is selected. 
 
 ***Wilsons***
-  * ToDo: Fill out info
+  * The Wilsons algorithm starts at a random point in the maze. From there it will move cell to cell in a random manner by selecting a random, unvisited node.
 
 ***Hunt and Kill***
-  * ToDo: Fill out info
+  * The Hunt and Kill algorithm starts at a random node and performs random movements when traversing the maze. This algorithm avoids previously visisted nodes, it selects neighbors that have yet to be visisted. However, if all neighbors have been visited a random, unvisited node is selected. 
 
 ***Recursive Backtracking***
-  * ToDo: Fill out info
+  * The Hunt and Kill algorithm starts at a random node and performs random movements when traversing the maze. This algorithm avoids previously visisted nodes. However when no moves are available the algorithm uses a stack to find neighbors of previously visited nodes that have yet to be traveresed. The stack allows the algorithm to backtrack.
 
 ***Test***
   * This algorithm is used to ensure everything runs fine and has no real purpose outside of that. It traverses every node and does a random coin flip to determine if a wall should be placed or not.
