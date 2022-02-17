@@ -22,7 +22,7 @@ All of these algorithms are dependent on a 'coin flip'. This is emulated by gett
   * The Binary Tree algorithm will traverse the maze and will only add walls to the North or East of the current node. A coinflip is done to see if a wall will be added to the north, if no wall will be added then we do another coin flip but for the east neighbor. If the value is less than 0.5 for both the North and East then no wall will be added. 
   
 ***Sidewinder***
-  * ToDo: Fill out info 
+  * The Sidewinder algorithm will traverse the maze and will only add walls to the East of the current node. A coinflip is done for the east neighbor to decide if a wall gets added or not. However, the nodes in the first column will never have a wall added since they are not the neighbor to the east for any node. So for any node in the first column a coinflip is performed to see if a wall should be added or not. This was something I had added after implementing this algorithm as followed in the book. 
   
 ***Aldous Broder***
   * ToDo: Fill out info
