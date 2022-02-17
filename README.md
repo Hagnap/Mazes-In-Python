@@ -22,19 +22,19 @@ All of these algorithms are dependent on a 'coin flip'. This is emulated by gett
   * The Binary Tree algorithm will traverse the maze and will only add walls to the North or East of the current node. A coinflip is done to see if a wall will be added to the north, if no wall will be added then we do another coin flip but for the east neighbor. If the value is less than 0.5 for both the North and East then no wall will be added. 
   
 ***Sidewinder***
-  * ToDO: Fill out info 
+  * ToDo: Fill out info 
   
 ***Aldous Broder***
-  * ToDO: Fill out info
+  * ToDo: Fill out info
 
 ***Wilsons***
-  * ToDO: Fill out info
+  * ToDo: Fill out info
 
 ***Hunt and Kill***
-  * ToDO: Fill out info
+  * ToDo: Fill out info
 
 ***Recursive Backtracking***
-  * ToDO: Fill out info
+  * ToDo: Fill out info
 
 ***Test***
   * This algorithm is used to ensure everything runs fine and has no real purpose outside of that. It traverses every node and does a random coin flip to determine if a wall should be placed or not.
@@ -43,3 +43,6 @@ All of these algorithms are dependent on a 'coin flip'. This is emulated by gett
 *What is a mask?* A mask is like a layout for a maze. The mask can be used to create various designs on a maze by telling the maze which areas are accessible or not when generating the maze. 
 
 Three masked are in this repo but the user can create more. This is done by making a text file and using 0s to mark open areas on the mask and 1s to mark as closed off areas. You can view the provided masks to get an idea of they can be created.  
+
+### Conclusion
+This program was a part of a passion project where I got to use algorithms that were new to me and improve my Python skills, however if you have any questions regarding the implementation feel free to contact me at jhaggard@gmail.com
