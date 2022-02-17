@@ -45,4 +45,4 @@ All of these algorithms are dependent on a 'coin flip'. This is emulated by gett
 Three masked are in this repo but the user can create more. This is done by making a text file and using 0s to mark open areas on the mask and 1s to mark as closed off areas. You can view the provided masks to get an idea of they can be created.  
 
 ### Conclusion
-This program was a part of a passion project where I got to use algorithms that were new to me and improve my Python skills, however if you have any questions regarding the implementation feel free to contact me at jhaggard@gmail.com
+This program was a part of a passion project where I got to use algorithms that were new to me and improve my Python skills, however if you have any questions regarding the implementation feel free to contact me at jhaggard26@gmail.com
