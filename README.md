@@ -12,6 +12,7 @@ Nodes are spots in the maze. Each node has its own unique X and Y (row and colum
   - Non-Accessible: '-1'
 
 Other than that Nodes references to their four neighbors (North, East, South, and West) and its parent. The parent reference is used when calculating the distance from the starting point of the maze.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### How Mazes Work (Continued)
